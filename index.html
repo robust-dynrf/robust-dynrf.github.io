@@ -157,62 +157,68 @@
 </section>
 
 
-<!-- <section class="hero is-light is-small">
+<section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
+        <div class="item item-blackswan">
+          <video poster="" id="blackswan" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blackswan.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
+        <div class="item item-car-shadow">
+          <video poster="" id="car-shadow" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/car-shadow.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
+        <div class="item item-horsejump-high">
+          <video poster="" id="horsejump-high" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/horsejump-high.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
+        <div class="item item-train">
+          <video poster="" id="train" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/train.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
+        <div class="item item-horsejump-low">
+          <video poster="" id="horsejump-low" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/horsejump-low.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
+        <div class="item item-kite-walk">
+          <video poster="" id="kite-walk" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/kite-walk.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
+        <div class="item item-lucia">
+          <video poster="" id="lucia" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/lucia.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
+        <div class="item item-motorbike">
+          <video poster="" id="motorbike" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/motorbike.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-swing">
+          <video poster="" id="swing" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/swing.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
 
 <section class="section">
@@ -224,6 +230,21 @@
         <div class="content has-text-justified">
           <p>
             Dynamic radiance field reconstruction methods aim to model the time-varying structure and appearance of a dynamic scene. Existing methods, however, assume that accurate camera poses can be reliably estimated by Structure from Motion (SfM) algorithms. These methods, thus, are unreliable as SfM algorithms often fail or produce erroneous poses on challenging videos with highly dynamic objects, poorly textured surfaces, and rotating camera motion. We address this robustness issue by jointly estimating the static and dynamic radiance fields along with the camera parameters (poses and focal length). We demonstrate the robustness of our approach via extensive quantitative and qualitative experiments. Our results show favorable performance over the state-of-the-art dynamic view synthesis methods.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RoDynRF. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">RoDynRF</h2>
+        <div class="content has-text-justified">
+          <div class="hyper-grid-rgb">
+            <img src="./static/images/overview.jpg"/>
+          </div>
+          <p>
+            RoDynRF addresses the robustness issue of SfM algorithms by jointly estimating the static and dynamic radiance fields along with the camera parameters (poses and focal length).
           </p>
         </div>
       </div>
@@ -247,17 +268,17 @@
 
 
 
-<!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{liu2023robust,
+  author    = {Liu, Yu-Lun and Gao, Chen and Meuleman, Andreas and Tseng, Hung-Yu and Saraf, Ayush and Kim, Changil and Chuang, Yung-Yu and Kopf, Johannes and Huang, Jia-Bin},
+  title     = {Robust Dynamic Radiance Fields},
+  journal   = {arXiv},
+  year      = {2023},
 }</code></pre>
   </div>
-</section> -->
+</section>
 
 
 <footer class="footer">
