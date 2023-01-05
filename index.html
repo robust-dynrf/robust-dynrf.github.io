@@ -245,7 +245,7 @@
         <h2 class="title is-3">RoDynRF</h2>
       </div>
     </div>
-    <img src="./static/images/overview.jpg"/>
+    <center><img src="./static/images/overview.jpg"/></center>
     <p>
       RoDynRF addresses the robustness issue of SfM algorithms by jointly estimating the static and dynamic radiance fields along with the camera parameters (poses and focal length).
     </p>
@@ -258,6 +258,33 @@
         </div>
       </div>
     </div> -->
+    
+    <br>
+    <h2 class="title is-4">Evaluation of camera poses estimation on the MPI Sintel dataset.</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <center><img src="./static/images/sintel_table.png" width="55%"/></center>
+          <center><img src="./static/images/sintel_figure.png" width="55%"/></center>
+          <p>
+            Our method performs significantly better than existing NeRF-based pose estimation methods. Note that our method also performs favorably against existing learning-based visual odometry methods.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <h2 class="title is-4">Novel view synthesis results on Dynamic Scene dataset.</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <center><img src="./static/images/nvidia_table.png" width="99%"/></center>
+          <p>
+            Our method performs favorably against state-of-the-art methods. Furthermore, even without COLMAP poses, our method can still achieve results comparable with the ones using COLMAP poses.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!--/ Abstract. -->
 
